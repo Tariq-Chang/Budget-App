@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="header__budget">Budget</p>
+        <p class="header__spent">Spent</p>
+        <p class="header__remaining">Remaining</p>
+      </div>
+      <div class="center">
+        <table>
+          <tr>
+            <th>Department</th>
+            <th>Allocation</th>
+            <th>Increase By 10</th>
+            <th>Delete</th>
+          </tr>
+          <tr>
+            <td>Marketing</td>
+            <td>$50</td>
+            <td><input type="button" value="+" /></td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <td>Finance</td>
+            <td>$300</td>
+            <td><input type="button" value="+" /></td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <td>Sales</td>
+            <td>$70</td>
+            <td><input type="button" value="+" /></td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <td>Human Resouce</td>
+            <td>$40</td>
+            <td><input type="button" value="+" /></td>
+            <td>x</td>
+          </tr>
+        </table>
+      </div>
+      <div class="bottom">
+        <label>Department</label>
+        <select>
+          <option value="choose">Choose..</option>
+          <option value="marketing">Marketing</option>
+          <option value="finance">Finance</option>
+          <option value="sales">Sales</option>
+          <option value="human resource">Human Resource</option>
+        </select>
+        <label>Allocation</label>
+        <select>
+          <option value="add">Add</option>
+          <option value="remove">Remove</option>
+        </select>
+        <input type="number" name="amount" id="amount" />
+        <button>submit</button>
+      </div>
+    </div>
+    <script src="learn.js"></script>
+  </body>
+</html>
